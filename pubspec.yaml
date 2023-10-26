@@ -38,6 +38,7 @@ dependencies:
   
   http: ^1.1.0
   intl: ^0.18.1
+  custom_bottom_sheet: ^1.1.2
 
 dev_dependencies:
   flutter_test:

@@ -36,10 +36,9 @@ class _HomeState extends State<Home> {
   List consolidatedWeatherList = []; //To hold our weather data after api call
 
   //Api calls url
-  String searchLocationUrl =
-      ''; //To get the woeid
-  String searchWeatherUrl =
-      ''; //to get weather details using the woeid
+  String searchLocationUrl = ApiConstants.baseUrl;
+       //To get the woeid
+  String searchWeatherUrl =  ApiConstants.usersEndpoint; //to get weather details using the woeid
 
   //Get the Where on earth id
   void fetchLocation(String location) async {

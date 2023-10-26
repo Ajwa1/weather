@@ -40,9 +40,6 @@ class GetStarted extends StatelessWidget {
                       fontSize: 18
                       ),),
                   ),
-              
-              
-              
                 ),
               ),
             ],
